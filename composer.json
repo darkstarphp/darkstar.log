@@ -1,0 +1,32 @@
+{
+    "name": "darkstar/log",
+    "description": "Logger for DarkStar",
+    "keywords": [
+        "php",
+        "logger",
+        "PSR-3",
+        "file-logger",
+        "null-logger",
+        "DarkStar",
+        "elevenone"
+    ],
+    "license": "MIT",
+    "homepage": "https://elevenone.space",
+    "authors": [
+        {
+            "name": "Zsolt Sándor",
+            "email": "hello@elevenone.space"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DarkStar\\Logger\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
