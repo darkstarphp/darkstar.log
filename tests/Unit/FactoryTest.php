@@ -2,10 +2,10 @@
 
 namespace DarkStar\Tests\Unit\Logger;
 
-use DarkStar\Logger\Factory;
-use DarkStar\Logger\FileLogger;
-use DarkStar\Logger\LoggerException;
-use DarkStar\Logger\NullLogger;
+use DarkStar\Log\Factory;
+use DarkStar\Log\FileLogger;
+use DarkStar\Log\LoggerException;
+use DarkStar\Log\NullLogger;
 use PHPUnit\Framework\TestCase;
 
 class FactoryTest extends TestCase

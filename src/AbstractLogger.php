@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace DarkStar\Logger;
+namespace DarkStar\Log;
 
 /**
  * This is a simple Logger implementation that other Loggers can inherit from.

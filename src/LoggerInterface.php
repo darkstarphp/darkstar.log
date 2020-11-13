@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace DarkStar\Logger;
+namespace DarkStar\Log;
 
 /**
  * Describes a logger instance.

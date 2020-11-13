@@ -2,8 +2,8 @@
 
 namespace DarkStar\Tests\Unit\Logger;
 
-use DarkStar\Logger\LogLevel;
-use DarkStar\Logger\NullLogger;
+use DarkStar\Log\LogLevel;
+use DarkStar\Log\NullLogger;
 use PHPUnit\Framework\TestCase;
 
 class NullLoggerTest extends TestCase
